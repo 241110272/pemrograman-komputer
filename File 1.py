@@ -41,7 +41,22 @@ while True:
 
                     elif opt2 == "2":
                         #Page untuk pembayaran tiket yang nantinya berfungsi sebagai pembagian Kelas dan Tingkat Prioritas [Julius]
-                        a=1
+                        print(f"\nPilih pembayaran:")
+                        print(f"1. Tunai")
+                        print(f"2. Non-tunai")
+
+                        opt2b = input("Pilih antara 1-2: ")
+
+                        if opt2b == "1":
+                            a=1
+                            continue
+
+                        elif opt2b == "2":
+                            a=1
+                            continue
+
+                        else:
+                            break
 
                     elif opt2 == "3":
                         #Page untuk Generate kode Resi setelah pembayaran GA-{Tahun}{Kota Asal}{Kota Akhir}{tingkat prioritas}{Nomor Urut[00x]} [Tonata]
